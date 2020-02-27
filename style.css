@@ -1,0 +1,63 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.main_wrap{
+	display: flex;
+	width: 920px;
+	margin: auto;
+}
+.wrap_item{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 300px;
+	margin: auto;
+
+	
+	
+}
+.image{
+	margin-top: 100px;
+}
+h1, p{
+	font-size: 12px;
+}
+
+a{
+	text-decoration: none;
+
+}
+.title{
+	padding: 5px;
+}
+.text{
+	padding: 5px;
+}
+.price{
+	padding: 5px;
+}
+.busket{
+	color: #fff;
+	background-color: green;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 18px;
+    width:100px;
+
+}
+.buy{
+	color: #fff;
+	background-color: green;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 18px;
+    width:100px;
+}
+.button{
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+
+}
